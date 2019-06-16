@@ -1,0 +1,72 @@
+.card{
+    padding: 5px;
+}
+.container{
+    flex-wrap: wrap;
+}
+.card-text{
+    flex-wrap: wrap;
+}
+i{
+    font-size: 18px;
+}
+carousel{
+    height: 265px;
+}
+slide img{
+    display: block; 
+    width: 100%;
+}
+.scroll{
+    overflow: auto;
+    height: calc( 100vh - 95px);
+}
+.domain{
+    width: 50px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 500px;
+    position: relative;
+    margin: 15px 20px 20px 0;
+    background: #eee;
+    box-shadow: 2px 3px 5px 2px #ccc;
+    &.html{
+        img{
+            width: 25px;
+        }
+    }
+    &.css{
+        img{
+            width: 25px;
+        }
+    }
+    &.sass{
+        img{
+            width: 30px;
+        }
+    }
+    &.ts{
+        img{
+            width: 25px;
+        }
+    }
+    &.angular{
+        img{
+            width: 25px;
+        }
+    }
+    &.bootstrap{
+        img{
+            width: 25px;
+        }
+    }
+}
+.cs-acbtn{
+    justify-content: space-between;
+    button{
+        width: 30%;
+    }
+}

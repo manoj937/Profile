@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~font-awesome/css/font-awesome.min.css";
+
+body{
+    background-color: #eb4a35;
+    header{
+        background: #2c3d51;
+        h2{
+            letter-spacing: 3px;
+        }
+    }
+    .pointer{
+        cursor: pointer;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        width: 8%;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+}

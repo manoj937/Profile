@@ -1,0 +1,22 @@
+<div class="scroll pb-5">
+  <div class="container pt-3 d-flex justify-content-between">
+    <div *ngFor="let project of projects" class="card mt-5 mb-2" style="width: 30rem;">
+      <carousel>
+        <slide *ngFor="let image of project.images">
+          <img src="assets/{{project.project}}/{{image}}" alt="{{image}}">
+        </slide>
+      </carousel>
+      <div class="card-body">
+        <h6 class="card-title m-0">{{project.name}}</h6>
+        <div class="card-text d-flex">
+          <span *ngFor="let domain of project.domain" class="domain {{domain}}">
+            <img src="assets/{{domain}}.png" alt="{{domain}}">
+          </span>
+        </div>
+        <div class="d-flex cs-acbtn">
+          <button *ngFor="let button of buttons" type="button" class="btn btn-dark"><i class="fa fa-{{button.icons}} mr-2"></i>{{button.name}}</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

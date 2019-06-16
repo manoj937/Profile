@@ -1,0 +1,12 @@
+<div class="scroll pb-5">
+  <div class="cardcontainer d-flex container p-2">
+    <div *ngFor="let skill of skills" class="card d-flex justify-content-center align-items-center p-3">
+      <span class="imgcontainer">
+        <img src="assets/{{skill.img}}.png" class="card-img-top {{skill.img}}" alt="{{skill.name}}">
+      </span>
+      <div class="card-body p-0 d-flex align-items-center">
+        <h6 class="card-title m-0">{{skill.name}}</h6>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+.avatar-container{
+    height: calc( 100vh - 94px);
+    color: #ffffff;
+    flex-direction: column;
+    text-align: center;
+    i{
+        font-size: 28px;
+    }
+    .star{
+        position: relative;
+        display: block;
+        &::before, &::after{
+            content: '';
+            width: 20%;
+            height: 4px;
+            background: white;
+            position: absolute;
+            top: 50%;
+        }
+        &::before{
+            left: 26%;
+        }
+        &::after{
+            right: 26%;
+        }
+    }
+    .avatar{
+        position: relative;
+        overflow: hidden;
+        width: 200px;
+        height: 200px;
+        border-radius: 500px;
+        img{
+            position: absolute;
+            width: 300px;
+            left:-40px;
+            top:-12px;
+        }
+    }
+}

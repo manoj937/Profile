@@ -1,0 +1,75 @@
+.cardcontainer{
+    flex-wrap:wrap;
+    .card{
+        margin: 10px;
+        .imgcontainer{
+            height: 112px;
+            width: 14rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                &.html{
+                    width: 80px;
+                }
+                &.css{
+                    width: 65px;
+                }
+                &.less{
+                    width: 110px;
+                }
+                &.sass{
+                    width: 95px;
+                }
+                &.js{
+                    width: 65px;
+                }
+                &.ts{
+                    width: 65px;
+                }
+                &.jquery{
+                    width: 80px;
+                }
+                &.rxjs{
+                    width: 75px;
+                }
+                &.firebase{
+                    width: 130px;
+                }
+                &.bootstrap{
+                    width: 70px;
+                }
+                &.angular{
+                    width: 70px;
+                }
+                &.ionic{
+                    width: 100px;
+                }
+                &.pwa{
+                    width: 100px;
+                }
+                &.gulp{
+                    width: 40px;
+                }
+                &.nodejs{
+                    width: 100px;
+                }
+                &.Python{
+                    width: 100px;
+                }
+            }
+        }
+        .card-body{
+            h6{
+                font-size: 0.9rem;
+            }
+        }
+        &:last-child{
+            opacity: 0.3;
+        }
+    }
+}
+.scroll{
+    overflow: auto;
+    height: calc( 100vh - 95px);
+}
