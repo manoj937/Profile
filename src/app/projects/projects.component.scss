@@ -19,7 +19,8 @@ slide img{
 }
 .scroll{
     overflow: auto;
-    height: calc( 100vh - 95px);
+    padding-top: 80px;
+    height: 100vh;
 }
 .domain{
     width: 50px;
@@ -68,5 +69,22 @@ slide img{
     justify-content: space-between;
     button{
         width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .domain{
+        margin: 20px 4px;
+    }
+    carousel{
+        height: auto;
+    }
+    .cs-acbtn{
+        button{
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }

@@ -16,7 +16,7 @@ import { CarouselModule } from 'ngx-bootstrap';
 import { environment } from 'src/environments/environment.prod';
 
 const appRoutes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'skills', component: SkillsComponent },
   { path: 'projects', component: ProjectsComponent },

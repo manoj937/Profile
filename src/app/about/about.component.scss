@@ -1,7 +1,9 @@
 .container{
     display: flex;
+    height: 100vh;
+    padding-top: 75px;
     img{
-        height: calc( 100vh - 95px);
+        height: calc( 100vh - 75px);
     }
     .text{
         color: #fff;
@@ -20,6 +22,39 @@
         span{
             margin-left: 15px;
             font-size: 16px;
+            width: 260px;
+        }
+    }
+}
+
+a{
+    color: #fff
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+        flex-direction: column;
+        img{
+            width: 100vw;
+            height: auto;
+        }
+        p{
+            font-size: 16px;
+        }
+        .inforow{
+            h5{
+                font-size: 16px;
+            }
+            span{
+                width: 315px;
+                font-size: 14px;
+            }
         }
     }
 }

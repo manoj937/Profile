@@ -12,4 +12,10 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  menu = ['HOME', 'SKILLS', 'PROJECTS', 'ABOUT', 'CONTACT'];
+
+  menuClick(menu){
+    menu.checked = false;
+  }
+
 }

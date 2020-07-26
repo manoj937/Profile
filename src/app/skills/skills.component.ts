@@ -25,9 +25,6 @@ export class SkillsComponent implements OnInit {
   }, {
     name: 'REACTIVE X',
     img: 'rxjs'
-  }, {
-    name: 'GULP',
-    img: 'gulp'
   },{
     name: 'BOOTSTRAP',
     img: 'bootstrap'
@@ -46,9 +43,6 @@ export class SkillsComponent implements OnInit {
   }, {
     name: 'NODEJS',
     img: 'nodejs'
-  }, {
-    name: 'PYTHON',
-    img: 'Python'
   }];
 
   constructor() { }

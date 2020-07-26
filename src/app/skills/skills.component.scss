@@ -64,12 +64,16 @@
                 font-size: 0.9rem;
             }
         }
-        &:last-child{
-            opacity: 0.3;
-        }
     }
 }
 .scroll{
     overflow: auto;
-    height: calc( 100vh - 95px);
+    padding-top: 80px;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 1000px) {
+    .cardcontainer{
+        justify-content: center;
+    }
 }

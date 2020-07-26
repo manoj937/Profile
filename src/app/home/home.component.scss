@@ -1,5 +1,6 @@
 .avatar-container{
-    height: calc( 100vh - 94px);
+    padding-top: 75px;
+    height: 100vh;
     color: #ffffff;
     flex-direction: column;
     text-align: center;
@@ -32,9 +33,15 @@
         border-radius: 500px;
         img{
             position: absolute;
-            width: 300px;
-            left:-40px;
-            top:-12px;
+            width: 335px;
+            left: -65px;
+            top: -45px;
         }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    h1{
+        font-size: 28px;
     }
 }
